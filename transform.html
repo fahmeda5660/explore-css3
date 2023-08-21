@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container,
+        .inner {
+            width: 150px;
+            height: 150px;
+            border: 2px solid khaki;
+        }
+
+        .container {
+            background-color: lightblue;
+        }
+
+        .inner {
+            background-color: lightcoral;
+            transform: translate(50px, 50px) scale(0.6) rotate(45deg);
+            /* translate(50px, 50px): This translates (moves) the element 50 pixels to the right along the horizontal axis and 50 pixels down along the vertical axis. This means the element will be shifted diagonally downwards and to the right.
+
+            scale(0.6): This scales down the element by a factor of 0.6. This means the element will be 60% of its original size in both width and height.
+
+            rotate(45deg): This rotates the element by 45 degrees clockwise. */
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transformer I am coming </h1>
+    <div class="box container">
+        <div class="inner">box-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-3</div>
+    </div>
+</body>
+
+</html>
